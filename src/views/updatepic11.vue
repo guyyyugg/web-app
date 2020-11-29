@@ -1,6 +1,6 @@
 <template>
   <div class="container-fluid">
-    <Menu2 />
+    <Menuadmin />
     <div class="row">
       <div class="col">
         <div class="row">
@@ -22,7 +22,7 @@
             <input type="file" id="files" name="files[]" multiple /> <br />
             <br />
             <button type="button" @click="open" class="btn btn-primary">
-              ค้นหา
+              อัพเดท
             </button>
           </div>
           <div class="card-footer text-muted">
@@ -35,7 +35,7 @@
 </template>
 
 <script>
-import Menu2 from "@/components/Menu2";
+import Menuadmin from "@/components/Menuadmin";
 import firebase from "firebase";
 export default {
   data() {
@@ -44,6 +44,26 @@ export default {
       datas: [],
     };
   },
+  
+  
+async mounted() {
+  const axios = require("axios");
+      firebase.auth().onAuthStateChanged((user) => {
+    if (!user) {
+      Swal.fire({
+              icon: 'error',
+              title: 'กรุณา LOGIN',
+              showConfirmButton: false,
+              timer: 3000
+              })
+      this.$router.replace("/login");
+    } else {
+      
+      
+    }
+  });
+},
+
   methods: {
     async open() {
       const axios = require("axios").default;
@@ -167,7 +187,7 @@ export default {
         });
     },
   },
-  components: { Menu2 },
+  components: { Menuadmin },
 };
 </script>
 

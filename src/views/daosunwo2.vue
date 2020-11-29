@@ -5,12 +5,12 @@
       <div class="col">
         <div class="card text-center" style="background-color:#F2F3F5;">
           <div class="card-header">
-            ดาวซัลโว พรีเมียร์ลีก อังกฤษ 2020 - 2021
+            <h3>ดาวซัลโว พรีเมียร์ลีก อังกฤษ 2020 - 2021</h3>
           </div>
           <div class="card-body" style="background-color:#fff;">
             <div class="row">
               <div class="col-6">
-                เลือกลีค
+                ลีค
                 <select class="form-control">
                   <option>พรีเมียร์ลีก อังกฤษ</option>
                 </select>
@@ -94,4 +94,8 @@ export default {
 
 
 </script>
-<style></style>
+<style >
+body{
+  background-color: #3b5998;
+}
+</style>

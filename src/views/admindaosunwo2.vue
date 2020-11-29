@@ -316,19 +316,19 @@ export default {
         // handle error
         console.log(error);
       });
-      this.datas1.forEach((element) =>{
-        console.log(element);
-    });
-    Swal.fire({
-          icon: "success",
-          title: "แก้ไขข้อมูลสำเร็จ",
-          showConfirmButton: false,
-          timer: 3000,
-        }).then(() => {
-          setTimeout(function() {
-            window.location.href = "/admindaosunwo2";
-          }, 200);
-        });
+    //   this.datas1.forEach((element) =>{
+    //     console.log(element);
+    // });
+              Swal.fire({
+                  icon: "success",
+                  title: "แก้ไขข้อมูลสำเร็จ",
+                  showConfirmButton: false,
+                  timer: 3000,
+                }).then(() => {
+                  setTimeout(function() {
+                    window.location.href = "/admindaosunwo2";
+                  }, 200);
+               });
   }
   },
   setid(id){

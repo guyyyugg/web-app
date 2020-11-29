@@ -5,7 +5,7 @@
     <div class="col">
         <div class="card text-center" style="background-color:#F2F3F5;">
   <div class="card-header">
-    ประวัตินักฟุตบอล
+    <h3>ประวัตินักฟุตบอล</h3>
   </div>
   <div class="card-body" style="background-color:#fff ;">
     <div id="example1_wrapper" class="dataTables_wrapper dt-bootstrap4">
@@ -93,4 +93,8 @@ methods:{
 
 </script>
 
-<style></style>
+<style >
+body{
+  background-color: #3b5998;
+}
+</style>

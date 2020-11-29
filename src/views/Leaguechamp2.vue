@@ -5,7 +5,7 @@
     <div class="col">
         <div class="card text-center" style="background-color:#F2F3F5;">
   <div class="card-header">
-    ทำเนียบผู้ชนะเลิศ(แชมป์)
+    <h3>ทำเนียบผู้ชนะเลิศ(แชมป์)</h3>
   </div>
   <div class="card-body" style="background-color:#fff;">
     <div id="example1_wrapper" class="dataTables_wrapper dt-bootstrap4">
@@ -33,14 +33,14 @@
                       <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                         <div class="modal-dialog modal-dialog-centered" role="document">
                           <div class="modal-content">
-                            <div class="modal-header" v-for="j in datas12">
-                              <h5 class="modal-title" >แชมป์ของสโมสร {{j.thai_name}} </h5>
+                            <div class="modal-header" v-for="j in datas12" style="background-color: #3b5998;">
+                              <h5 class="modal-title" style="color: white" >แชมป์ของสโมสร {{j.thai_name}} </h5>
                               <h4 id="thainame"> </h4>
                               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                               </button>
                             </div>
-                            <div class="modal-body">
+                            <div class="modal-body" >
                               <div class="row">
                               <div class="col" >
                                   <textarea name="champsum" id="champsum" cols="50" rows="5"> </textarea>
@@ -140,6 +140,8 @@ export default {
 
 </script>
 
-<style>
-
+<style >
+body{
+  background-color: #3b5998;
+}
 </style>
