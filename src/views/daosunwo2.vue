@@ -8,21 +8,8 @@
             <h3>ดาวซัลโว พรีเมียร์ลีก อังกฤษ 2020 - 2021</h3>
           </div>
           <div class="card-body" style="background-color:#fff;">
-            <div class="row">
-              <div class="col-6">
-                ลีค
-                <select class="form-control">
-                  <option>พรีเมียร์ลีก อังกฤษ</option>
-                </select>
-              </div>
-              <div class="col-6">
-                ปี ค.ศ.
-                <select class="form-control">
-                  <option>2020-2021</option>
-                </select>
-              </div>
-            </div>
-            <br /><br />
+            
+            <br />
             <div class="row">
               <div class="col-12">
                 <table class="table table-hover">

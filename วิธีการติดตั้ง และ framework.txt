@@ -1,0 +1,23 @@
+นาย สหวัสส์ พวงเรืองศรี 6030301055
+นาย ปรวิชญ์ ปุริสาร 6030300563
+
+framework: Vuejs
+fontend: bootstrap , CSS ,Template adminLTE 
+backend: javascript , php
+database: firebase , sql
+
+วิธีการติดตั้ง
+1. ลง node.js
+2. ลง xampp แล้ว run Apache กับ   MySQL
+3.import ไฟล์  webapp.sql เข้า sql
+4.npm install sweetalert --save
+5.npm install axios
+
+ถ้าลงเรียบร้อนหมดแล้ว ให้ใช้คำสั่ง npm run serve เพื่อ  run web
+
+จะเข้าหน้าหลัก ของ user ให้เข้าที่ลิ้ง http://localhost:8080/
+
+ถ้าจะเข้าส่วนของ admin ให้เข้าที่ลิ้ง  http://localhost:8080/login
+ID และ Password ของ Admin
+username : guy_2542@hotmail.com
+password : 0993356225678

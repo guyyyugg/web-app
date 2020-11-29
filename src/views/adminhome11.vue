@@ -49,7 +49,7 @@
                             <div class="row">
                               <div class="col">
                                 <div class=" text-right">
-                                  <select
+                                  <span>*</span> <select
                                     name="pos"
                                     id="pos"
                                     class="form-control"

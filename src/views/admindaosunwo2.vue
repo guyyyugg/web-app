@@ -5,24 +5,10 @@
       <div class="col">
         <div class="card text-center" style="background-color:#F2F3F5;">
           <div class="card-header">
-            ดาวซัลโว พรีเมียร์ลีก อังกฤษ 2020 - 2021
+            <h3>ดาวซัลโว พรีเมียร์ลีก อังกฤษ 2020 - 2021</h3>
           </div>
           <div class="card-body" style="background-color:#fff;">
-            <div class="row">
-              <div class="col-6">
-                เลือกลีค
-                <select class="form-control">
-                  <option disabled selected>พรีเมียร์ลีก อังกฤษ</option>
-                </select>
-              </div>
-              <div class="col-6">
-                เลือกปี ค.ศ.
-                <select class="form-control">
-                  <option>2020-2021</option>
-                </select>
-              </div>
-            </div>
-            <br />
+           
             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@add">เพิ่มนักเตะ</button>
            
 
